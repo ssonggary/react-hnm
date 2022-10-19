@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.login_btn {
   display: flex;
-  flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
+  margin: 20px;
+  cursor: pointer;
+}
+.login_btn > div {
+  margin-left: 5px;
+}
+
+.nav-logo {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.menu-area {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menu-list {
+  display: flex;
+  list-style: none;
+}
+.menu-list li {
+  padding: 10px;
+}
+.search_area {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  padding: 5px;
+  border-bottom: 1px solid #555;
+}
+.search_area input {
+  margin-left: 5px;
+  border: none;
+}
+.pro_card {
+  width: 300px;
+  margin-bottom: 40px;
+}
+.pro_card img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.pro_card:hover {
+  transform: scale(110%);
+}
+.pro-img {
+  display: flex;
+  justify-content: flex-end;
+}
+.pro-tit {
+  font-size: 30px;
+  font-weight: 700;
+}
+.pro-pric {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.add_btn {
+  margin-top: 30px;
+}
+.md-pic {
+  font-weight: 700;
+  color: #cd0118;
+  margin-bottom: 10px;
+}
+.login_btn2 {
+  width: 300px;
+  background-color: #cd0118 !important;
+  border: none !important;
 }
